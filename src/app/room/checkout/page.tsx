@@ -4,7 +4,7 @@ import React, { useMemo, useState } from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
-const PRICE_PER_NIGHT = 100.0;
+const PRICE_PER_NIGHT = 0.01;
 
 function todayYMD(offsetDays = 0) {
     const d = new Date();

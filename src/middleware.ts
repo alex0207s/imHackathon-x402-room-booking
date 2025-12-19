@@ -12,7 +12,7 @@ export const x402Middleware = paymentMiddleware(
     {
         // pages
         "/blog": {
-            price: "$0.001",
+            price: "$0.01",
             network,
             config: {
                 description: "Access to protected content",
@@ -27,7 +27,7 @@ export const x402Middleware = paymentMiddleware(
             },
         },
         "/room/checkout": {
-            price: "$100.00",
+            price: "$0.001",
             network,
             config: {
                 description: "Booking payment for Sunny Studio",
